@@ -1,0 +1,23 @@
+{
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.hover.enabled": "off",
+  "editor.parameterHints.enabled": false,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+  "[go]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false
+  }
+}
