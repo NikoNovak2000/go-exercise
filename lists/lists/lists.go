@@ -1,4 +1,4 @@
-package main
+package lists
 
 import "fmt"
 
@@ -7,8 +7,12 @@ func main() {
 	fmt.Println(prices[0:1])
 	prices[1] = 9.99
 
-	prices = append(prices, 5.99)
+	prices = append(prices, 5.99, 12.99, 29.99, 100.10)
 	prices = prices[1:]
+	fmt.Println(prices)
+
+	discountPrices := []float64{101.99, 80.99, 20.59}
+	prices = append(prices, discountPrices...) // 3 dots instructs Go to go to this list and take out all the elements from the list, and add them as seperated elemnts
 	fmt.Println(prices)
 }
 
